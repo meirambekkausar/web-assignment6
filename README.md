@@ -2,8 +2,8 @@
 
 * **Student Name:** Kaussar Meyrambekkyzy
 * **Group:** IT-2513
-* **GitHub Repository:** [Repository Link]
-* **GitHub Pages (Live Demo):** [https://<username>.github.io/<repo-name>/]
+* **GitHub Repository:** (https://github.com/meirambekkausar/web-assignment6.git)
+* **GitHub Pages (Live Demo):** https://<username>.github.io/<repo-name>/]](https://meirambekkausar.github.io/web-assignment6/)
 
 ---
 
