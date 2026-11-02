@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment 6 - jQuery Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body class="light">
+
+  <!-- Part 1: Selectors & CSS (Task 1) -->
+  <header>
+    <div class="controls">
+      <button id="btn-light">Light Theme</button>
+      <button id="btn-dark">Dark Theme</button>
+      <button id="btn-change-text">Change Headline</button>
+    </div>
+
+    <h1 id="main-title">Welcome to My Portfolio</h1>
+    <h2 id="headline">Computer Science Student</h2>
+    <p class="intro">Hello! This is a simple portfolio demonstrating core jQuery features, effects, and DOM manipulations.</p>
+  </header>
+
+  <hr>
+
+  <!-- Part 2: jQuery Effects -->
+  <!-- Task 2: Visibility Methods -->
+  <section>
+    <h3>About Me (Visibility Methods)</h3>
+    <div id="status-container">
+      <p>Short Bio: Passionate  student focused on web development.</p>
+      <p id="status-text"><strong>Status:</strong> Currently learning jQuery!</p>
+      <p><strong>Fun Fact:</strong> I love iced coffee and late night stories .</p>
+    </div>
+    <div class="controls">
+      <button id="btn-hide">Hide</button>
+      <button id="btn-show">Show</button>
+      <button id="btn-toggle">Toggle</button>
+    </div>
+  </section>
+
+  <hr>
+
+  <!-- Task 3: Fade Methods -->
+  <section>
+    <h3>Gallery (Fade Methods)</h3>
+    <div class="controls">
+      <button id="btn-fadein">Fade In</button>
+      <button id="btn-fadeout">Fade Out</button>
+      <button id="btn-fadetoggle">Fade Toggle</button>
+    </div>
+    <div class="gallery-container">
+      <img class="img-fade" src="https://picsum.photos/250/160?1" alt="Project Preview 1">
+      <img class="img-fade" src="https://picsum.photos/250/160?2" alt="Project Preview 2">
+    </div>
+  </section>
+
+  <hr>
+
+  <!-- Task 4: Slide Methods -->
+  <section>
+    <h3>Interests (Slide Methods)</h3>
+    <h4 class="slide-title">My Favorite Music ▾</h4>
+    <div class="panel">Indie pop, instrumental lo-fi, and ambient electronic soundtracks for deep focus.</div>
+
+    <h4 class="slide-title">My Favorite Movie ▾</h4>
+    <div class="panel">Detective mysteries, psychological thrillers, and mind-bending science fiction.</div>
+
+    <h4 class="slide-title">My Favorite Subject ▾</h4>
+    <div class="panel">Data Structures, Algorithms, Modern Web Frameworks, and Database Management Systems.</div>
+  </section>
+
+  <hr>
+
+  <!-- Part 3: DOM Manipulation with jQuery -->
+  <!-- Task 5: Add & Remove Elements -->
+  <section>
+    <h3>Technical Skills (DOM Manipulation)</h3>
+    <div class="controls">
+      <input type="text" id="skill-input" placeholder="Enter a new skill...">
+      <button id="btn-add">Add Skill</button>
+      <button id="btn-prepend">Prepend Skill</button>
+      <button id="btn-remove">Remove Skill</button>
+    </div>
+
+    <ul id="skill-list">
+      <li>Java</li>
+      <li>C# / .NET</li>
+      <li>PostgreSQL</li>
+      <li>HTML5 & CSS3</li>
+    </ul>
+  </section>
+
+  <hr>
+
+  <!-- Task 6: Modifying Attributes -->
+  <section>
+    <h3>Social Media Profile (Modify Attribute)</h3>
+    <p>Current link: <a id="profile-link" href="https://github.com" target="_blank" rel="noreferrer">Visit GitHub Profile</a></p>
+    <button id="btn-change-link">Switch Link to LinkedIn</button>
+  </section>
+
+  <hr>
+
+  <!-- Task 7: Form Interaction -->
+  <section>
+    <h3>Contact Form (Live Preview)</h3>
+    <div class="form-inputs">
+      <input type="text" id="name-input" placeholder="Your Name">
+      <input type="email" id="email-input" placeholder="Your Email">
+    </div>
+    <div class="preview-box">
+      <p>Name: <span id="out-name">—</span></p>
+      <p>Email: <span id="out-email">—</span></p>
+    </div>
+  </section>
+
+  <hr>
+
+  <!-- Part 4: Animations (Task 8) -->
+  <section>
+    <h3>Skill Proficiency (Custom Animation)</h3>
+    <button id="btn-animate">Animate My Skills</button>
+
+    <div class="skills-bars-wrapper">
+      <p>Algorithms & Data Structures (80%)</p>
+      <div class="bar-bg"><div class="bar-fill" data-width="80%"></div></div>
+
+      <p>Web Development (90%)</p>
+      <div class="bar-bg"><div class="bar-fill" data-width="90%"></div></div>
+
+      <p>Database Management (75%)</p>
+      <div class="bar-bg"><div class="bar-fill" data-width="75%"></div></div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
